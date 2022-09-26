@@ -1,0 +1,43 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Changed hard drive",
+      "attention": false,
+      "date": "03-09-2022",
+      "tech": "Anil Tuluy"
+    },
+    {
+      "id": 2,
+      "message": "Checked network config",
+      "attention": false,
+      "date": "05-09-2022",
+      "tech": "Tulay Tuluy"
+    },
+    {
+      "id": 3,
+      "message": "Installed Windows 10",
+      "attention": true,
+      "date": "20-09-2022",
+      "tech": "Tulay Tuluy"
+    }
+  ],
+
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Anil",
+      "lastName": "Tuluy"
+    },
+    {
+      "id": 2,
+      "firstName": "Tulay",
+      "lastName": "Tuluy"
+    },
+    {
+      "id": 3,
+      "firstName": "Test",
+      "lastName": "Test"
+    }
+  ]
+}
