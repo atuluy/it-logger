@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
 import "./App.css";
+import { Provider } from "react-redux";
+
+// Store
+import store from "./store";
 
 // Components
 import SearchBar from "./components/layout/SearchBar";
@@ -20,17 +24,19 @@ const App = () => {
   });
 
   return (
-    <>
-      <SearchBar />
-      <div className="container">
-        <AddBtn />
-        <AddLogModal />
-        <EditLogModal />
-        <AddTechModal />
-        <TechListModal />
-        <Logs />
-      </div>
-    </>
+    <Provider store={store}>
+      <>
+        <SearchBar />
+        <div className="container">
+          <AddBtn />
+          <AddLogModal />
+          <EditLogModal />
+          <AddTechModal />
+          <TechListModal />
+          <Logs />
+        </div>
+      </>
+    </Provider>
   );
 };
 
