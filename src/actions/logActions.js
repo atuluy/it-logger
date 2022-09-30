@@ -1,6 +1,6 @@
 import { GET_LOGS, LOGS_ERROR, SET_LOADING } from "../types/types";
 
-// Making an asynchronous call to our backend we will use redux-thunk Version 1
+// Making an asynchronous call to our backend we will use redux-thunk / code Version 1
 // export const getLogs = () => {
 //   return async (dispatch) => {
 //     setLoading();
@@ -15,7 +15,7 @@ import { GET_LOGS, LOGS_ERROR, SET_LOADING } from "../types/types";
 //   };
 // };
 
-// Making an asynchronous call to our backend we will use redux-thunk Version 2
+// Making an asynchronous call to our backend we will use redux-thunk / code Version 2
 export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
