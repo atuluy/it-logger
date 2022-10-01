@@ -35,6 +35,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 
 Logs.propTypes = {
   log: PropTypes.object.isRequired,
+  getLogs: PropTypes.func.isRequired,
 };
 
 // In order to get anything from your App Level State and bring it into your component you have to bring it in as a Prop
