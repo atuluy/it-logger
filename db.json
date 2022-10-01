@@ -1,25 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive",
+      "message": "Add new graphic card",
       "attention": false,
-      "date": "03-03-2022",
-      "tech": "Anil Tuluy"
+      "tech": "Test1",
+      "date": "2022-10-01T14:53:42.237Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Checked network config",
-      "attention": false,
-      "date": "05-11-2022",
-      "tech": "Tulay Tuluy"
-    },
-    {
-      "id": 3,
-      "message": "Installed Windows 10",
+      "message": "Network failure",
       "attention": true,
-      "date": "09-20-2022",
-      "tech": "Tulay Tuluy"
+      "tech": "Test3",
+      "date": "2022-10-01T14:54:02.637Z",
+      "id": 2
+    },
+    {
+      "message": "Test the database",
+      "attention": false,
+      "tech": "Test2",
+      "date": "2022-10-01T14:54:48.026Z",
+      "id": 3
     }
   ],
   "techs": [
