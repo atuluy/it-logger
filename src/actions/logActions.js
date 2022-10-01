@@ -4,6 +4,8 @@ import {
   SET_LOADING,
   ADD_LOG,
   DELETE_LOG,
+  SET_CURRENT,
+  CLEAR_CURRENT,
 } from "../types/types";
 
 // Making an asynchronous call to our backend we will use redux-thunk / code Version 1
@@ -86,6 +88,21 @@ export const deleteLog = (id) => async (dispatch) => {
       payload: error.response.data,
     });
   }
+};
+
+// Set current log
+export const setCurrent = (log) => {
+  return {
+    type: SET_CURRENT,
+    payload: log,
+  };
+};
+
+// Clear current log
+export const clearCurrent = () => {
+  return {
+    type: CLEAR_CURRENT,
+  };
 };
 
 // Set loading to true
