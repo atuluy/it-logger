@@ -1,25 +1,25 @@
 {
   "logs": [
     {
-      "message": "Add new graphic card",
-      "attention": false,
-      "tech": "Test1",
-      "date": "2022-10-01T14:53:42.237Z",
-      "id": 1
-    },
-    {
-      "message": "Network failure",
-      "attention": true,
-      "tech": "Test3",
-      "date": "2022-10-01T14:54:02.637Z",
-      "id": 2
-    },
-    {
       "message": "Test the database",
       "attention": false,
       "tech": "Test2",
       "date": "2022-10-01T14:54:48.026Z",
       "id": 3
+    },
+    {
+      "message": "Test network",
+      "attention": true,
+      "tech": "Test1",
+      "date": "2022-10-01T18:18:22.582Z",
+      "id": 4
+    },
+    {
+      "message": "Check graphic card",
+      "attention": false,
+      "tech": "Test3",
+      "date": "2022-10-01T18:18:44.354Z",
+      "id": 5
     }
   ],
   "techs": [
