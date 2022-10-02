@@ -4,6 +4,8 @@ import {
   SET_LOADING,
   ADD_LOG,
   DELETE_LOG,
+  SET_CURRENT,
+  CLEAR_CURRENT,
 } from "../types/types";
 
 const initialState = {
@@ -32,6 +34,16 @@ export default (state = initialState, action) => {
         ...state,
         logs: state.logs.filter((log) => log.id !== action.payload),
         loading: false,
+      };
+    case SET_CURRENT:
+      return {
+        ...state,
+        current: action.payload,
+      };
+    case CLEAR_CURRENT:
+      return {
+        ...state,
+        current: null,
       };
     case SET_LOADING:
       return {
