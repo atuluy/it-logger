@@ -4,6 +4,7 @@ import {
   SET_LOADING,
   ADD_LOG,
   DELETE_LOG,
+  UPDATE_LOG,
   SET_CURRENT,
   CLEAR_CURRENT,
 } from "../types/types";
