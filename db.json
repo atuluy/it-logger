@@ -9,9 +9,10 @@
     },
     {
       "id": 4,
-      "message": "Fixed network",
-      "tech": "Test3",
-      "date": "2022-10-03T08:23:08.259Z"
+      "message": "Network is broken",
+      "attention": true,
+      "tech": "Test1",
+      "date": "2022-10-03T08:42:14.649Z"
     },
     {
       "id": 5,
