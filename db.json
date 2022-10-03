@@ -1,25 +1,24 @@
 {
   "logs": [
     {
-      "message": "Test the database",
+      "id": 3,
+      "message": "Database internal error solved",
       "attention": false,
-      "tech": "Test2",
-      "date": "2022-10-01T14:54:48.026Z",
-      "id": 3
+      "tech": "Test1",
+      "date": "2022-10-03T08:25:11.587Z"
     },
     {
-      "message": "Test network",
+      "id": 4,
+      "message": "Fixed network",
+      "tech": "Test3",
+      "date": "2022-10-03T08:23:08.259Z"
+    },
+    {
+      "id": 5,
+      "message": "Graphic card broken",
       "attention": true,
       "tech": "Test1",
-      "date": "2022-10-01T18:18:22.582Z",
-      "id": 4
-    },
-    {
-      "message": "Check graphic card",
-      "attention": false,
-      "tech": "Test3",
-      "date": "2022-10-01T18:18:44.354Z",
-      "id": 5
+      "date": "2022-10-03T08:24:20.460Z"
     }
   ],
   "techs": [
