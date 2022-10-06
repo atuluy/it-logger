@@ -10,9 +10,9 @@
     {
       "id": 4,
       "message": "Network is broken",
-      "attention": true,
-      "tech": "Test1",
-      "date": "2022-10-03T08:42:14.649Z"
+      "attention": false,
+      "tech": "Test2",
+      "date": "2022-10-06T07:55:00.199Z"
     },
     {
       "id": 5,
@@ -20,6 +20,13 @@
       "attention": true,
       "tech": "Test1",
       "date": "2022-10-03T08:24:20.460Z"
+    },
+    {
+      "message": "test log 7",
+      "attention": true,
+      "tech": "Tulay Tuluy",
+      "date": "2022-10-06T07:56:08.156Z",
+      "id": 7
     }
   ],
   "techs": [
