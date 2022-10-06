@@ -2,24 +2,17 @@
   "logs": [
     {
       "id": 3,
-      "message": "Database internal error solved",
-      "attention": false,
-      "tech": "Test1",
-      "date": "2022-10-03T08:25:11.587Z"
-    },
-    {
-      "id": 4,
-      "message": "Network is broken",
-      "attention": false,
-      "tech": "Test2",
-      "date": "2022-10-06T07:55:00.199Z"
+      "message": "Database internal error solved again",
+      "attention": true,
+      "tech": "Tulay Tuluy",
+      "date": "2022-10-06T08:08:03.472Z"
     },
     {
       "id": 5,
-      "message": "Graphic card broken",
-      "attention": true,
-      "tech": "Test1",
-      "date": "2022-10-03T08:24:20.460Z"
+      "message": "Graphic card issue solved",
+      "attention": false,
+      "tech": "Test Test",
+      "date": "2022-10-06T08:08:25.385Z"
     },
     {
       "message": "test log 7",
@@ -27,6 +20,13 @@
       "tech": "Tulay Tuluy",
       "date": "2022-10-06T07:56:08.156Z",
       "id": 7
+    },
+    {
+      "message": "Hello there",
+      "attention": false,
+      "tech": "Anil Tuluy",
+      "date": "2022-10-06T08:08:45.421Z",
+      "id": 8
     }
   ],
   "techs": [

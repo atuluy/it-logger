@@ -6,6 +6,9 @@ import M from "materialize-css/dist/js/materialize.min.js";
 // Actions
 import { updateLog } from "../../actions/logActions";
 
+// Components
+import TechSelectOptions from "../techs/TechSelectOptions";
+
 const EditLogModal = ({ current, updateLog }) => {
   const [message, setMessage] = useState("");
   const [attention, setAttention] = useState(false);
@@ -72,9 +75,7 @@ const EditLogModal = ({ current, updateLog }) => {
               <option value="" disabled>
                 Select Technician
               </option>
-              <option value="Test1">Test1</option>
-              <option value="Test2">Test2</option>
-              <option value="Test3">Test3</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
